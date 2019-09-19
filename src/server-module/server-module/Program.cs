@@ -22,7 +22,7 @@ namespace server_module
 
                     var server_module_connection_informtion = new ConnectionInformation()
                     {
-                        IP = new IP() { TheIP = "10.152.212.11" },
+                        IP = new IP() { TheIP = "127.0.0.1" },
                         Port = new Port() { ThePort = 5522 }
                     };
 
