@@ -28,7 +28,6 @@ namespace server_module
                     //ServerModule must have itself as the router
                     var portToListenForRegistration = new Port() { ThePort = 5523 };
 
-
                     var self_conn_info = new ConnectionInformation()
                     {
                         IP = new IP() { TheIP = null }, // is set after the reading of the system args because isLocalhost might change
