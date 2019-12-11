@@ -4,7 +4,7 @@
 FROM gaticks/bachelor-project:BaseUbuntuNetCore2.2 as base 
 
 # copy application 
-COPY /src/server-module/server-module/bin/Debug/netcoreapp2.2/publish/ /data/server-module/
+COPY /src/server-module/bin/Debug/netcoreapp2.2/publish/ /data/server-module/
 
 # used for incomming communication
 EXPOSE 5522/TCP
